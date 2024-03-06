@@ -1,0 +1,13 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.input {
+  padding: 16px;
+  width: 240px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}

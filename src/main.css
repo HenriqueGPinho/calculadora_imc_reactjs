@@ -1,0 +1,18 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #465067;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  min-height: 180px;
+  margin: 24px auto;
+  background-color: #dde9ff;
+  border-radius: 8px;
+}
