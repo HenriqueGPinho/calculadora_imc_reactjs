@@ -25,7 +25,7 @@ export default function App() {
 
   function classificaIMC() {
     const IMC = calculaIMC()
-    
+
     if (IMC < 18.5) setClassificacaoIMC('abaixo do peso')
     else if (IMC >= 18.5 && IMC < 25) setClassificacaoIMC('peso normal')
     else if (IMC >= 25 && IMC < 30) setClassificacaoIMC('sobrepeso')
