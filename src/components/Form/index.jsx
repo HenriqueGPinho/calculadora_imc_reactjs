@@ -1,14 +1,13 @@
 import styles from './Form.module.css'
 
-function Form() {
+export default function Form({ altura, peso, botaoForm }) {
   return (
     <div className="container">
-      <form className={styles.form}>
-        <input className={styles.input} type="number" placeholder="sua altura (em metros)" />
-        <input className={styles.input} type="number" placeholder="seu peso (em quilogramas)" />
+      <form onSubmit={botaoForm} className={styles.form}>
+        <input className={styles.input} onChange={altura} type="number" placeholder="sua altura (cm)" />
+        <input className={styles.input} onChange={peso} type="number" placeholder="seu peso (kg)" />
+        <button type='submit' className={styles.button}> calcular </button>
       </form>
     </div>
   )
 }
-
-export default Form

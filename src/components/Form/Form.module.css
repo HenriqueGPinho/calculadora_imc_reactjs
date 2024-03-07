@@ -1,13 +1,19 @@
 .form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
 }
 
 .input {
   padding: 16px;
-  width: 240px;
   text-align: center;
   border: none;
   border-radius: 8px;
+}
+
+.button {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  color: #465067;
 }
